@@ -10,6 +10,8 @@
 </head>
 <body>
   @include('includes._header')
+  @include('includes._main')
+
 
     
 </body>

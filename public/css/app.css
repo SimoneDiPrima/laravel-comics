@@ -19,3 +19,15 @@ li a {
   background-position: top;
   background-repeat: no-repeat;
 }
+
+#main {
+  height: 500px;
+  max-width: 100%;
+}
+
+.mainTitle {
+  background-color: dodgerblue;
+  padding: 5px;
+  position: absolute;
+  margin-bottom: 60px;
+}
