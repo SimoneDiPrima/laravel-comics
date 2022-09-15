@@ -8,23 +8,26 @@
 </head>
 <body>
 <div id="topNavbar">
-
+    <div class="container d-flex justify-content-end text-white">
+        <span class="pe-3">DC POWER VISA</span>
+        <span>ADDITIONAL DC SITE</span>
+    </div>
 </div>
  <div class="container d-flex justify-content-between align-items-center my-4">
   <figure>
          <img src="{{ asset('images/dc-logo.png') }}" alt="">
  </figure>
  <ul class="d-flex">
-         <li class="me-2">CHARACTERS</li>
-         <li class="me-2">COMICS</li>
-         <li class="me-2">MOVIES</li>
-         <li class="me-2">TV</li>
-         <li class="me-2">GAMES</li>
-         <li class="me-2">COLLECTIBLES</li>
-         <li class="me-2">VIDEO</li>
-         <li class="me-2">FANS</li>
-         <li class="me-2">NEWS</li>
-         <li class="me-2">SHOP</li>
+         <li class="me-2"><a href="#">CHARACTERS</a></li>
+         <li class="me-2"><a href="#">COMICS</a></li>
+         <li class="me-2"><a href="#">MOVIES</a></li>
+         <li class="me-2"><a href="#">TV</a></li>
+         <li class="me-2"><a href="#">GAMES</a></li>
+         <li class="me-2"><a href="#">COLLECTIBLES</a></li>
+         <li class="me-2"><a href="#">VIDEO</a></li>
+         <li class="me-2"><a href="#">FANS</a></li>
+         <li class="me-2"><a href="#">NEWS</a></li>
+         <li class="me-2"><a href="#">SHOP</a></li>
      </ul>
  </div>
  <div class="jumbotron img-fluid">
