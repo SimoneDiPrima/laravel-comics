@@ -1,3 +1,8 @@
+#topNavbar {
+  height: 50px;
+  background-color: dodgerblue;
+}
+
 li {
   font-weight: bold;
   list-style-type: none;
