@@ -24,6 +24,10 @@
            <button class="offset-5 col-2 bg-primary text-white border border-primary p-2 mb-5">LOAD MORE</button>
         </div>
   </div>
+  <section class="text-white" id="sectionFans">
+    <div class="lineHeight text-center">Content will goes here..</div>
+
+  </section>
 
     
 </body>
