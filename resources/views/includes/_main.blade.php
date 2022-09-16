@@ -7,13 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-dark" id="main">
-        <div class="container position-relative">
-            <h4 class="text-white mainTitle">CURRENT SERIES</h4>
-            @yield('card')
-        </div>
 
-    </div>
     
 </body>
 </html>

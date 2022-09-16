@@ -10,8 +10,19 @@
 </head>
 <body>
   @include('includes._header')
-  @include('includes._main')
-
+  <div class="bg-dark" id="main">
+        <div class="container position-relative">
+            <h4 class="text-white mainTitle col-2 p-2">CURRENT SERIES</h4>
+            <div class="mt-5 d-flex flex-row text-white flex-wrap">
+            @foreach($comics as $comic)
+            <div class="col-3">
+            <img src="{{ $comic['thumb'] }}" alt="Dc's Comics"/>
+                <h3 class="text-justify">{{ $comic['title'] }}</h3>
+            </div>
+                @endforeach
+           </div>
+        </div>
+  </div>
 
     
 </body>
