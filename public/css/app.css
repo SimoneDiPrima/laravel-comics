@@ -1,14 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap);#topNavbar {
   height: 50px;
   background-color: dodgerblue;
+  line-height: 50px;
+}
+
+span a {
+  text-decoration: none;
+  color: white;
 }
 
 li {
   font-weight: bold;
   list-style-type: none;
 }
-li .headerLink a {
-  color: black;
+li a {
+  color: gray;
   text-decoration: none;
 }
 
@@ -59,25 +65,30 @@ img {
   position: relative;
 }
 
+.marginNegative {
+  margin-left: -20px;
+}
+
 .textLeft {
   text-align: left;
 }
 
-li a {
-  text-decoration: none;
-  color: black;
+ul {
+  padding-left: 0px;
 }
 
 .downFooter {
-  min-height: 150px;
+  height: 150px;
   max-width: 100vw;
-  background-color: rgb(58, 49, 49);
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  background-color: black;
   line-height: 150px;
+  position: sticky;
+  z-index: 10;
+  margin-top: -50px;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 .footerButton {

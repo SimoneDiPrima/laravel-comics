@@ -9,8 +9,8 @@
 <body>
 <div id="topNavbar">
     <div class="container d-flex justify-content-end text-white">
-        <span class="pe-3">DC POWER VISA</span>
-        <span>ADDITIONAL DC SITE</span>
+        <span class="pe-3"><a href="#">DC POWER VISA</a></span>
+        <span><a href="#">ADDITIONAL DC SITE</a></span>
     </div>
 </div>
  <div class="container d-flex justify-content-between align-items-center my-4">
@@ -30,7 +30,7 @@
          <li class="me-2"><a href="#"  class="headerLink">SHOP</a></li>
      </ul>
  </div>
- <div class="jumbotron img-fluid">
+ <div class="jumbotron img-fluid position-relative">
      
  </div>
 

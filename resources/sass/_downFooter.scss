@@ -1,14 +1,13 @@
 .downFooter{
-    min-height:150px;
+    height:150px;
     max-width:100vw;
-    background-color: rgb(58, 49, 49);
-    position:fixed;
-    z-index:1;
-    left:0;
-    right:0;
-    bottom:0;
+    background-color: black;
     line-height:150px;
+    position:sticky;
+    z-index:10;
+    margin-top:-50px;
 }
+ul{padding-left:0px;}
 .footerButton{
     height:100px;
     background-color:  rgb(58, 49, 49);
