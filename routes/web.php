@@ -22,6 +22,12 @@ Route::get('/', function () {
     return view('home',['comics'=>$comics]);
 })->name('comics');
 
+Route::get('/product', function () {
+    $comics = config('comics');
+    $product = $comics[0];
+    return view('product',compact('product'));
+})->name('product');
+
 Route::get('characters', function () {
     return view('characters');
 })->name('characters');

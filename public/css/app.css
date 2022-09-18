@@ -99,3 +99,7 @@ ul {
   height: 100px;
   background-color: rgb(58, 49, 49);
 }
+
+.productSingle {
+  background-color: white;
+}
