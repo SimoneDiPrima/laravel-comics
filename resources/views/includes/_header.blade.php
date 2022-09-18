@@ -18,16 +18,16 @@
          <img src="{{ asset('images/dc-logo.png') }}" alt="">
  </figure>
  <ul class="d-flex">
-         <li class="me-2"><a href="#">CHARACTERS</a></li>
-         <li class="me-2"><a href="#">COMICS</a></li>
-         <li class="me-2"><a href="#">MOVIES</a></li>
-         <li class="me-2"><a href="#">TV</a></li>
-         <li class="me-2"><a href="#">GAMES</a></li>
-         <li class="me-2"><a href="#">COLLECTIBLES</a></li>
-         <li class="me-2"><a href="#">VIDEO</a></li>
-         <li class="me-2"><a href="#">FANS</a></li>
-         <li class="me-2"><a href="#">NEWS</a></li>
-         <li class="me-2"><a href="#">SHOP</a></li>
+         <li class="me-2"><a href="#" class="headerLink">CHARACTERS</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">COMICS</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">MOVIES</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">TV</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">GAMES</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">COLLECTIBLES</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">VIDEO</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">FANS</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">NEWS</a></li>
+         <li class="me-2"><a href="#"  class="headerLink">SHOP</a></li>
      </ul>
  </div>
  <div class="jumbotron img-fluid">
