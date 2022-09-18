@@ -12,6 +12,9 @@
     <title>Document</title>
 </head>
 <body>
-@include('includes._header')
+@extends('layouts.mainTemplate')
+@section('main-section')
+<h1 class="text-white">pagina protagonisti</h1>
+@endsection
 </body>
 </html>

@@ -25,9 +25,6 @@
          <li class="me-2"><a href="{{ route('games') }}"  class="headerLink">GAMES</a></li>
          <li class="me-2"><a href="{{ route('collectibles') }}"  class="headerLink">COLLECTIBLES</a></li>
          <li class="me-2"><a href="{{ route('videos') }}"  class="headerLink">VIDEO</a></li>
-         <li class="me-2"><a href="{{ route('fans') }}"  class="headerLink">FANS</a></li>
-         <li class="me-2"><a href="#"  class="headerLink">NEWS</a></li>
-         <li class="me-2"><a href="#"  class="headerLink">SHOP</a></li>
      </ul>
  </div>
  <div class="jumbotron img-fluid position-relative">

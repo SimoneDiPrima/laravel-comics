@@ -47,6 +47,10 @@ img {
   max-width: 100%;
 }
 
+.flexBasis {
+  width: 16.6666666667%;
+}
+
 #sectionFans {
   background-color: dodgerblue;
   height: 150px;
