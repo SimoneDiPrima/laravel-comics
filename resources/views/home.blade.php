@@ -1,9 +1,13 @@
 @extends('layouts.mainTemplate')
 @section('main-section')
-<div class="col-3 d-flex flex-wrap">
-    @foreach($comics as $comic)
-    <img src="{{ $comic['thumb'] }}" alt="">
-    <h5 class="text-white">{{ $comic['title'] }}</h5>
-    @endforeach
+
+
+@foreach($comics as $comic)
+<div class="col-2 py-4 p-2 cardHeight">
+<h6 class="text-white">{{$comic['title']}}</h6>
+<img src="{{$comic['thumb']}}" alt=""/>
 </div>
+@endforeach
+
 @endsection
+

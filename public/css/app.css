@@ -47,8 +47,8 @@ img {
   max-width: 100%;
 }
 
-.flexBasis {
-  width: 16.6666666667%;
+.cardHeight {
+  min-height: 200px;
 }
 
 #sectionFans {
