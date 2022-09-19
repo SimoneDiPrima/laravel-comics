@@ -21,11 +21,11 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     $comics = config('comics');
-    return view('comics',['comics'=>$comics]);
-})->name('comics');
+    return view('comics.index',['comics'=>$comics]);
+})->name('comics.index');
 
-Route::get('/singlecomic', function () {
+Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
-    $comic = $comics[0];
-    return view('singlecomic',compact('comic'));
-});
+    $comic = $comics[$id];
+    return view('comics.show',compact('comic'));
+})->name('comics.show');

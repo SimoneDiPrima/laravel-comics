@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Laravel comics</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
  </figure>
  <ul class="d-flex">
          <li class="me-2"><a href=""   class="headerLink">CHARACTERS</a></li>
-         <li class="me-2"><a href="{{route('comics')}}"  class="headerLink">COMICS</a></li>
+         <li class="me-2"><a href="{{route('comics.index')}}"  class="headerLink">COMICS</a></li>
          <li class="me-2"><a href=""  class="headerLink">MOVIES</a></li>
          <li class="me-2"><a href=""  class="headerLink">TV</a></li>
          <li class="me-2"><a href=""  class="headerLink">GAMES</a></li>
