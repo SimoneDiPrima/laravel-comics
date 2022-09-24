@@ -1,7 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 .w-80{
     max-width:80%;
 }
 img{
     max-width:100%;
 }
-.cardHeight{max-height:200px;}
+
+.Fontsmall{
+    font-size:80%;
+    font-style: italic;
+}
+a{ 
+    text-decoration:none;
+    color:goldenrod;
+    &:hover{
+        transform: scale(1.10);
+        color:black;
+        box-shadow: inset 10px gold;
+    }
+}
